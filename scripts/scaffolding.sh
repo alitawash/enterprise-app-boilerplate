@@ -54,4 +54,4 @@ ng g c header
 ng g c footer
 
 cd ./layouts
-ng g c landing
+ng g c landings
