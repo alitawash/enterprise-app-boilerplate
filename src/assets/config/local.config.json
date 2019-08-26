@@ -1,0 +1,7 @@
+ {
+          "appName":"FunApp",
+          "urlMap":{
+                  "GET_USER_INFO":"http://localhost:4200/userInfo"
+          },
+          "logExport":"SENTRY"
+ }

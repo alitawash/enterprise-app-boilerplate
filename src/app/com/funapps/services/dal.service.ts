@@ -1,3 +1,4 @@
+import { CustomHttpService } from './custom-http.service';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +6,12 @@ import { Injectable } from '@angular/core';
 })
 export class DalService {
 
-  constructor() { }
+  constructor(private customHTTP: CustomHttpService) { }
+
+  public getConfig(){
+    return this.customHTTP.getReq("")
+  }
+  public getEnvSpecificConfig(url){
+    return this.customHTTP.getReq(url);
+  }
 }

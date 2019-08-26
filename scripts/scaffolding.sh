@@ -29,7 +29,7 @@ echo "Generating util things"
 cd ../utils
 
 ng g class error-exporter
-ng g class error-handler
+ng g class custom-error-handler
 ng g class logger
 
 ## Guards in routing
